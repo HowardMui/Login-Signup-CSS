@@ -185,3 +185,17 @@ section .box .user {
   display: none;
   transition: 0.5s;
 } */
+
+/* Responsive website */
+
+@media (max-width: 700px) {
+  section .box {
+    max-width: 500px;
+  }
+  .box .imgBx {
+    display: none;
+  }
+  .box .user .formBx {
+    width: 100%;
+  }
+}
